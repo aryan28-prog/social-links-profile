@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aryan's Social Links</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    .author {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .author img {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .author span {
+      font-size: 15px;
+      font-weight: 500;
+      color: rgb(255, 255, 255);
+      margin-bottom: 7px;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: hsl(0, 0%, 8%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      background: hsl(0, 0%, 12%);
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      padding: 32px 24px;
+      width: 320px;
+      text-align: center;
+    }
+
+    .card h2 {
+      color: hsl(0, 0%, 100%);
+      font-size: 20px;
+      font-weight: 600;
+      margin: 0px;
+    }
+
+    .card .location {
+      color: hsl(75, 94%, 57%);
+      font-size: 14px;
+      font-weight: 600;
+      margin: 6px 0px 18px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #aaa;
+      margin-bottom: 24px;
+    }
+
+    .btn {
+      display: block;
+      padding: 12px;
+      width: 100%;
+      background: hsl(0, 0%, 20%);
+      color: white;
+      font-weight: 600;
+      font-size: 14px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.5s ease, transform 0.5s ease;
+      margin-bottom: 12px;
+    }
+
+    .btn:hover {
+      background: hsl(75, 94%, 57%);
+      color: black; 
+    }
+
+    .btn:active {
+      background: hsl(75, 94%, 57%); 
+      transform: scale(0.96);
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="card">
+    <div class="author">
+      <img src="aryan.png" alt="Aryan R Nayak">
+    </div>
+    <h2>Aryan R Nayak</h2>
+    <div class="location">Bengaluru, Karnataka</div>
+    <p>"Front-end developer and avid reader."</p>
+    <button class="btn">GitHub</button>
+    <button class="btn">Frontend Mentor</button>
+    <button class="btn">LinkedIn</button>
+    <button class="btn">Twitter</button>
+    <button class="btn">Instagram</button>
+  </div>
+</body>
+</html>
